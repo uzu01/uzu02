@@ -8,8 +8,6 @@ end
 
 get_github_file("global.lua")
 
-player.DevCameraOcclusionMode = "Invisicam"
-
 player.Idled:Connect(function()
     virtual_user:CaptureController()
     virtual_user:ClickButton2(Vector2.new())
