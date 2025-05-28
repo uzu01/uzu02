@@ -16,6 +16,7 @@ end)
 local list = {
     [6884266247] = "anime_ranger_x",
     [6115988515] = "anime_saga",
+    [7483057113] = "anime_shadow_2",
 }
 
 local name = rawget(list, game.GameId) 
