@@ -201,6 +201,8 @@ end})
 farming:AddToggle("", {Text = "Auto Trial", Default = config.auto_trial, Callback = function(v)
     config.auto_trial = v
     save()
+
+    task.spawn(auto_trial)
 end})
 
 shadows:AddToggle("", {Text = "Auto Hatch", Default = config.auto_star, Callback = function(v)
